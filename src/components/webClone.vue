@@ -36,7 +36,8 @@
                   </li>
                   <li>
                     <p>✔ URL</p>                   
-                    <span><a v-bind:href="url1" class="url">{{url1}}</a></span>
+                    <p><a v-bind:href="url[4]" class="url"><span class="url_bold">메인</span>: {{url[4]}}</a></p>
+                    <p><a v-bind:href="url[5]" class="url"><span class="url_bold">소개</span>: {{url[5]}}</a></p>
                   </li>
                   <li>
                     <p>✔ GitHub</p>                 
@@ -77,7 +78,8 @@
                   </li>
                   <li>
                     <p>✔ URL</p>                    
-                    <span><a v-bind:href="url1" class="url">{{url1}}</a></span>
+                    <p><a v-bind:href="url[0]" class="url"><span class="url_bold">메인</span>: {{url[0]}}</a></p>
+                    <p><a v-bind:href="url[1]" class="url"><span class="url_bold">소개</span>: {{url[1]}}</a></p>
                   </li>
                   <li>
                     <p>✔ GitHub</p>                   
@@ -120,7 +122,8 @@
                   </li>
                   <li>
                     <p>✔ URL</p>                   
-                    <span><a v-bind:href="url2" class="url">{{url2}}</a></span>
+                    <p><a v-bind:href="url[2]" class="url"><span class="url_bold">메인</span>: {{url[2]}}</a></p>
+                    <p><a v-bind:href="url[3]" class="url"><span class="url_bold">소개</span>: {{url[3]}}</a></p>
                   </li>
                   <li>
                     <p>✔ GitHub</p>                   
@@ -155,8 +158,14 @@ export default {
     return{
           moreCnt: 0,
           stack1: ['HTML', 'CSS', 'Java Script', 'Jquery'],
-          url1: "file:///E:/%EB%B0%B1%EC%84%A0%EC%98%81/Project_Daejeon/daejeon.html",
-          url2: "file:///E:/%EB%B0%B1%EC%84%A0%EC%98%81/Project_pollexzone/pollexzone_main.html",
+          url: [
+            "http://bsy0720.dothome.co.kr/Project_Daejeon/daejeon.html",
+            "http://bsy0720.dothome.co.kr/Project_Daejeon/sub/daejeon_introduce.html",
+            "http://bsy0720.dothome.co.kr/Project_pollexzone/pollexzone_main.html",
+            "http://bsy0720.dothome.co.kr/Project_pollexzone/pollexzone_introduce.html",
+            "http://bsy0720.dothome.co.kr/project_shouse/together0406.html",
+            "http://bsy0720.dothome.co.kr/project_shouse/index0414.html"
+            ],
           gitLink1: "https://github.com/bsy0720/Project_Daejeon.git",
           gitLink2: "https://github.com/bsy0720/Project_pollexzone.git",
           gitLink3: "https://github.com/bsy0720/project_shouse.git"
@@ -306,6 +315,10 @@ background-color: #E6E6FA;
 }
 
 .bold {
+  font-weight: bold;
+}
+
+.url>.url_bold {
   font-weight: bold;
 }
 

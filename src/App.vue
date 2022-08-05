@@ -12,10 +12,10 @@
         <li v-on:click="gotointro">Main</li>
         <li v-on:click="gotoabout">About Me</li>
         <li class="mb_subMenu_wrap">
-          Project
+          <p>Project</p>        
           <ul class="mb_subMenu">
-            <li v-on:click="gotowebclone">Web Clone</li>
             <li v-on:click="gotodevelop">Front-end Develop</li>
+            <li v-on:click="gotowebclone">Web Clone</li>            
           </ul>
         </li>
         <li v-on:click="gotocontact">Contact</li>
@@ -31,10 +31,10 @@
       <li class="pt bold" v-on:click="gotointro">Main</li>
       <li class="pt bold" v-on:click="gotoabout">About Me</li>
       <li class="subMenu_wrap bold">
-        Project
+        <p>Project</p>  
         <ul class="subMenu">        
           <li class="pt down" v-on:click="gotodevelop">Front-end Develop</li>
-           <li class="pt down" v-on:click="gotowebclone">Web Clone</li>
+          <li class="pt down" v-on:click="gotowebclone">Web Clone</li>
         </ul>
       </li>
       <li class="pt bold" v-on:click="gotocontact">Contact</li>
@@ -136,9 +136,14 @@ export default {
   padding: 0;
 } 
 
-.r_menu li {
+.r_menu>li {
   margin: 5px 0;
-  font-size: 20px; 
+  font-size: 25px; 
+  transition: 0.3s;
+}
+
+.r_menu>li:hover {
+  color: #9400D3;
 }
 
 .bold {
@@ -154,6 +159,18 @@ export default {
   cursor: pointer;
 }
 
+.subMenu_wrap>p {
+  margin: 0;
+}
+
+.subMenu_wrap li {
+  transition: 0.3s;
+}
+
+.subMenu_wrap li:hover{
+  color: #9400D3;
+}
+
 .subMenu {
   padding-left: 30px;
   list-style: none;
@@ -164,7 +181,7 @@ export default {
 }
 
 .subMenu>.down {
-  font-size: 15px; 
+  font-size: 18px; 
 }
 
 .sidenav {
@@ -225,13 +242,18 @@ export default {
   height: 4px;
   margin: 10px 0;
   text-align: center;
-  background-color: #111;
+  background-color: #9400D3;
   border-radius: 8px;
 }
 
 .mb_subMenu_wrap li {
   font-size: 18px;
   cursor: pointer;
+  margin: 10px 0;
+}
+
+.mb_subMenu_wrap>p {
+  margin: 0;
 }
 
 

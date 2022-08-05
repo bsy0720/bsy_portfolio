@@ -507,7 +507,7 @@ export default {
   .about_contentBox {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
   }
 
   .about_contentBox .aboutImg {
