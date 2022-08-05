@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
+import {
+    createApp
+} from 'vue'
 import App from './App.vue'
+import '/public/js/animation.js'
 
-createApp(App).mount('#app')
+
+
+const app = createApp(App)
+
+app.mount('#app')
