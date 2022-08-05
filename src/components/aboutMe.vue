@@ -203,7 +203,7 @@ export default {
 
 .about_contentBox .aboutImg {
   width: 50%;
-  background: url('/public/img/about_img.jpeg') center center no-repeat;
+  background: url('/public/img/about_img3.jpeg') center center no-repeat;
   background-size: cover;
   margin-right: 50px;
   border: 3px solid #9400D3;

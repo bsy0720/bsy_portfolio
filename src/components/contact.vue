@@ -48,7 +48,7 @@ export default {
   name: 'contact-page',
   data() {
     return {
-      git: "https://github.com/bsy0720",
+      git: "https://github.com/bsy0720/portfolio.git",
       mail: "mailto:df3978@naver.com",
       kakao: "https://open.kakao.com/o/sN97S7se",
       source1: './public/resume.pdf',
