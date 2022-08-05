@@ -32,9 +32,9 @@
       <li class="pt bold" v-on:click="gotoabout">About Me</li>
       <li class="subMenu_wrap bold">
         Project
-        <ul class="subMenu">
-          <li class="pt down" v-on:click="gotowebclone">Web Clone</li>
+        <ul class="subMenu">        
           <li class="pt down" v-on:click="gotodevelop">Front-end Develop</li>
+           <li class="pt down" v-on:click="gotowebclone">Web Clone</li>
         </ul>
       </li>
       <li class="pt bold" v-on:click="gotocontact">Contact</li>
@@ -44,8 +44,8 @@
 
     <intro id="intro"></intro>
     <about id="about"></about>
-    <webclone id="webclone"></webclone>
     <develop id="develop"></develop>
+    <webclone id="webclone"></webclone>   
     <contact id="contact"></contact> 
 </div>
 </template>
@@ -53,8 +53,8 @@
 <script>
 import intro from './components/intro.vue'
 import about from './components/aboutMe.vue'
-import webclone from './components/webClone.vue'
 import develop from './components/frontEndDevelop.vue'
+import webclone from './components/webClone.vue'
 import contact from './components/contact.vue'
 
 
@@ -110,8 +110,8 @@ export default {
   components: {
     intro,
     about,
-    webclone,
     develop,
+    webclone,
     contact,
   }
 }
