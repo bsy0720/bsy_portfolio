@@ -136,14 +136,10 @@ export default {
   padding: 0;
 } 
 
-.r_menu>li {
+.r_menu li {
   margin: 5px 0;
   font-size: 25px; 
-  transition: 0.3s;
-}
-
-.r_menu>li:hover {
-  color: #9400D3;
+  display: block;
 }
 
 .bold {
@@ -161,14 +157,6 @@ export default {
 
 .subMenu_wrap>p {
   margin: 0;
-}
-
-.subMenu_wrap li {
-  transition: 0.3s;
-}
-
-.subMenu_wrap li:hover{
-  color: #9400D3;
 }
 
 .subMenu {

@@ -202,7 +202,7 @@ export default {
 }
 
 .about_contentBox .aboutImg {
-  width: 50%;
+  width: 40%;
   background: url('/public/img/about_img3.jpeg') center center no-repeat;
   background-size: cover;
   margin-right: 50px;
@@ -211,7 +211,7 @@ export default {
 }
 
 .about_contentBox .aboutIntroduce {
-  width: 50%;
+  width: 60%;
 }
 
 .about_contentBox .aboutIntroduce>.upTxt>p {
@@ -381,8 +381,8 @@ export default {
 }
 
 .img10 {
-  background: url(/public/img/figma.png) center center no-repeat;
-  background-size: cover;
+  background: url(/public/img/vscode_icon.png) center center no-repeat;
+  background-size: 85%;
 }
 
 .down_tools {
@@ -399,8 +399,8 @@ export default {
 }
 
 .img11 {
-  background: url(/public/img/vscode_icon.png) center center no-repeat;
-  background-size: 85%;
+  background: url(/public/img/figma.png) center center no-repeat;
+  background-size: cover;
 }
 
 .img12 {
@@ -526,7 +526,6 @@ export default {
     text-align: center;
   }
 
-  
   .aboutIntroduce .downTxt .txt>p {
     font-size: 18px;
   }
