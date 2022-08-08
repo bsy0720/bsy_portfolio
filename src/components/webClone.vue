@@ -15,14 +15,10 @@
             <div class="swiper_wrap">
               <swiper :pagination="true" :modules="modules" class="mySwiper">
               <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="싱그러운집 메인.mp4" type="video/mp4">
-                </video>
+                <img src="/img/fresh_main.gif">
               </swiper-slide>
               <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="싱그러운집 소개.mp4" type="video/mp4">
-                </video>
+                <img src="/img/fresh_sub.gif">
               </swiper-slide>
             </swiper>
             </div>
@@ -57,14 +53,10 @@
             <div class="swiper_wrap">
               <swiper :pagination="true" :modules="modules" class="mySwiper">
               <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="대전문화재단 메인.mp4" type="video/mp4">
-                </video>
+                <img src="/img/daejeon_main.gif">
               </swiper-slide>
               <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="대전문화재단 소개.mp4" type="video/mp4">
-                </video>
+               <img src="/img/daejeon_sub.gif">
               </swiper-slide>
             </swiper>
             </div>
@@ -99,14 +91,10 @@
             <div  class="swiper_wrap">
               <swiper :pagination="true" :modules="modules" class="mySwiper">
                 <swiper-slide>
-                  <video muted autoplay loop>
-                    <source src="폴렉스존 메인.mp4" type="video/mp4">
-                  </video>
+                  <img src="/img/pz_main.gif">
                 </swiper-slide>
                 <swiper-slide>
-                  <video muted autoplay loop>
-                    <source src="폴렉스존 소개.mp4" type="video/mp4">
-                  </video>
+                  <img src="/img/pz_intro.gif">
                 </swiper-slide>
               </swiper>
             </div>

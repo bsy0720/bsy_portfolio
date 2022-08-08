@@ -41,8 +41,6 @@
 </template>
 
 <script>
-/*eslint-disable*/
-import VuePdfEmbed from 'vue-pdf-embed'
 
 export default {
   name: 'contact-page',
@@ -55,7 +53,6 @@ export default {
     }
   },
   components: {
-    VuePdfEmbed
   }
 }
 </script>

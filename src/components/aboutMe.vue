@@ -312,7 +312,7 @@ export default {
 }
 
 .img4 {
-  background: url('/public/img/제이쿼리.png') center center no-repeat;
+  background: url('/public/img/jquery.png') center center no-repeat;
   background-size: cover;
 }
 
@@ -331,7 +331,7 @@ export default {
 }
 
 .img5 {
-  background: url(/public/img/뷰.png) center center no-repeat;
+  background: url(/public/img/vue.png) center center no-repeat;
   background-size: cover;
 }
 

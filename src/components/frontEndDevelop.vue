@@ -15,19 +15,13 @@
             <div class="swiper_wrap">
               <swiper :pagination="true" :modules="modules" class="mySwiper">
               <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="서문시장 메인.mp4" type="video/mp4">
-                </video>
+                <img src="/img/seomun_main.gif">
               </swiper-slide>
               <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="서문시장 소개.mp4" type="video/mp4">
-                </video>
+                <img src="/img/seomun_intro.gif">
               </swiper-slide>
                <swiper-slide>
-                <video muted autoplay loop>
-                  <source src="서문시장 공지사항.mp4" type="video/mp4">
-                </video>
+                <img src="/img/seomun_notice.gif">
               </swiper-slide>
             </swiper>
             </div>
@@ -56,22 +50,13 @@
                 </ul>
               </div>
              <div class="develop_mockup_wrap">
-                <button @click="handle_toggle" type="button">Mock Up</button>
-             </div>  
+                <button @click="handle_toggle2" type="button">Mock Up</button>
+             </div>
             </div>
           </div>
         </div>
-        <!--
-        <div v-show="is_show" class="black_bg">
-          <div class="white_bg">
-            <h3>알래스카 한인관광 Mock Up</h3>
-              <img src="/img/insta.png">
-              <div class="fe_btn">
-                <button @click="handle_toggle" type="button">닫기</button>
-              </div>              
-          </div>                  
-        </div>
-        -->
+       
+  
         <div class="develop_box develop_box2">
            <div class="develop_box_title">
             <h3>알래스카 한인관광</h3>
@@ -81,24 +66,13 @@
             <div  class="swiper_wrap">
               <swiper :pagination="true" :modules="modules" class="mySwiper">
                 <swiper-slide>
-                  <video muted autoplay loop>
-                    <source src="알래스카 메인.mp4" type="video/mp4">
-                  </video>
+                  <img src="/img/alaska_main.gif">
                 </swiper-slide>
                 <swiper-slide>
-                  <video muted autoplay loop>
-                    <source src="알래스카 계절여행.mp4" type="video/mp4">
-                  </video>
+                  <img src="/img/alaska_yt.gif">
                 </swiper-slide>
                 <swiper-slide>
-                  <video muted autoplay loop>
-                    <source src="알래스카 유튜브.mp4" type="video/mp4">
-                  </video>
-                </swiper-slide>
-                <swiper-slide>
-                  <video muted autoplay loop>
-                    <source src="알래스카 공지사항.mp4" type="video/mp4">
-                  </video>
+                  <img src="/img/alaska_notice.gif">
                 </swiper-slide>
               </swiper>
             </div>
@@ -136,12 +110,21 @@
         <div v-show="is_show" class="black_bg scroll">
           <h3>알래스카 한인관광 Mock Up</h3>
           <div class="modal_img">
-            <img src="/img/라온(알래스카 한인관광).png">
+            <img src="/img/alaska.png">
           </div>        
           <div class="fe_btn">
             <button @click="handle_toggle" type="button">닫기</button>
           </div>                               
         </div>
+         <div v-show="is_show2" class="black_bg scroll">
+          <h3>서문시장 야시장 Mock Up</h3>
+          <div class="modal_img">
+            <img src="/img/seomun_mockup.png">
+          </div>        
+          <div class="fe_btn">
+            <button @click="handle_toggle2" type="button">닫기</button>
+          </div>                               
+        </div>  
       </div>
     </div>    
   </section>
@@ -178,11 +161,15 @@ export default {
           gitLink1: "https://github.com/bsy0720/Project_seomun.git",
           gitLink2: "https://github.com/bsy0720/Project_alaska.git",
           is_show:false,
+          is_show2:false
     }
   },
   methods: {
     handle_toggle: function() {
       this.is_show = !this.is_show;
+    },
+    handle_toggle2: function() {
+      this.is_show2 = !this.is_show2;
     }
   },
   
