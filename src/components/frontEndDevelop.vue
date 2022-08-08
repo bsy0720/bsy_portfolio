@@ -159,7 +159,7 @@ export default {
           url1: "https://seomun-bsy.herokuapp.com/",
           url2: "https://team-alaska.herokuapp.com/",
           gitLink1: "https://github.com/bsy0720/Project_seomun.git",
-          gitLink2: "https://github.com/bsy0720/Project_alaska.git",
+          gitLink2: "https://team-alaska.herokuapp.com/",
           is_show:false,
           is_show2:false
     }

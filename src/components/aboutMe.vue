@@ -3,7 +3,6 @@
     <div class="w1440 ab_scroll" id="ab_scroll">
       <div class="about_txtBox" id="about_txtBox">
         <h1>About Me</h1>
-        <!-- <VueWriter id="typing" :array="['&#34;안녕하세요, 프론트엔드 개발자를 꿈꾸는 백선영입니다.&#34;']" :iterations="1"/>-->
         <div class="hidden">
           <p>"안녕하세요, 프론트엔드 개발자를 꿈꾸는 백선영입니다."</p>
         </div>
