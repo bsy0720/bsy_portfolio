@@ -202,10 +202,10 @@ export default {
 
 .about_contentBox .aboutImg {
   width: 40%;
-  background: url('/public/img/about_img3.jpeg') center center no-repeat;
+  background: url('/public/img/ankok.jpeg') center bottom no-repeat;
   background-size: cover;
   margin-right: 50px;
-  border: 3px solid #9400D3;
+  border: 3px solid #9400D3; 
   border-radius: 16px;
 }
 
