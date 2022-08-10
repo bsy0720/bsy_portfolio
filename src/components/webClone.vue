@@ -194,7 +194,7 @@ background-color: #E6E6FA;
 .project_title {
   width: 100%;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .project_title>h1 {
@@ -213,7 +213,7 @@ background-color: #E6E6FA;
 
 .webclone_box_wrap {
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .webclone_box {

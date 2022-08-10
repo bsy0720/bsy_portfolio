@@ -126,6 +126,49 @@
           </div>                               
         </div>  
       </div>
+       
+       <div class="develop_box develop_box2">
+           <div class="develop_box_title">
+            <h3>포트폴리오</h3>
+            <p>2022.07 ~ 2022.08 &#40;1人 프로젝트&#41;</p>
+          </div>
+          <div class="develop_box_content">
+            <div  class="swiper_wrap">
+              <swiper :pagination="true" :modules="modules" class="mySwiper">
+                <swiper-slide>
+                  <img src="/img/portfolio_web.gif">
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="/img/portfolio_mb.gif">
+                </swiper-slide>
+              </swiper>
+            </div>
+            <div class="develop_content">
+              <p>
+                <span class="bold">포트폴리오</span> 사이트는 Vue.js를 기반으로 css, Java Script, Jquery를 사용하였으며
+                원페이지로 제작, 각 페이지로 갈 수 있는 fix Menu도 제작하였습니다. 프로젝트 부분은 직접 구현하는 모습을 볼 수 있는 칸과 정보를 담은 칸을 만들었으며
+                개인 및 팀프로젝트 부분은 목업버튼을 누르면 목업을 볼 수 있는 팝업창을 만들었습니다. 
+                또한 contact 부분은 각 아이콘에 a 태그를 사용하여 페이지로 넘어갈 수 있게 제작하였습니다. 
+              </p>
+              <div class="develop_info">
+                <ul>
+                  <li>
+                    <p>✔ 기술스택</p>                    
+                    <span v-for="stack in stack3" :key="stack">{{stack}}</span>
+                  </li>
+                  <li>
+                    <p>✔ URL</p>                    
+                    <span><a v-bind:href="url3" class="url">{{url3}}</a></span>
+                  </li>
+                  <li>
+                    <p>✔ GitHub</p>                    
+                    <span><a v-bind:href="gitLink3" class="git">{{gitLink3}}</a></span>
+                  </li>
+                </ul>
+              </div>                     
+            </div>           
+          </div>
+        </div>
     </div>    
   </section>
 </template>
@@ -156,10 +199,13 @@ export default {
     return{
           stack1: ['HTML', 'CSS', 'Java Script', 'Jquery', 'Node js','My SQL', 'Kakao API'],
           stack2: ['HTML', 'CSS', 'Java Script', 'Jquery', 'Node js','My SQL', 'OpenWeather API', 'Bootstrap'],
+          stack3: ['Vue.js', 'CSS', 'Java Script', 'Jquery'],
           url1: "https://seomun-bsy.herokuapp.com/",
           url2: "https://team-alaska.herokuapp.com/",
+          url3: "https://bsy-portfolio.web.app/",
           gitLink1: "https://github.com/bsy0720/Project_seomun.git",
           gitLink2: "https://team-alaska.herokuapp.com/",
+          gitLink3: "https://github.com/bsy0720/bsy_portfolio.git",
           is_show:false,
           is_show2:false
     }
@@ -220,7 +266,6 @@ background-color: #E6E6FA;
 
 .develop_box_wrap {
   width: 100%;
-  padding-bottom: 100px;
 }
 
 .develop_box {

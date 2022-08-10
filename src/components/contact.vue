@@ -72,7 +72,7 @@ export default {
 
 .contact_txtBox1 {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -86,7 +86,7 @@ export default {
 
 .contact_txtBox2 {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -99,7 +99,7 @@ export default {
 
 .contact_icon {
   position: absolute;
-  top: 58%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
