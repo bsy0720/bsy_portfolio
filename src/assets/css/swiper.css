@@ -8,7 +8,6 @@
 .swiper_wrap .swiper-slide {
     text-align: center;
     font-size: 18px;
-    /* Center slide text vertically */
     display: flex;
     align-items: center;
     justify-content: center;
