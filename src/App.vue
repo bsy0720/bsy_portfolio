@@ -16,7 +16,7 @@
           <ul class="mb_subMenu">
             <li v-on:click="gotodevelop">Front-end Develop</li>
             <li v-on:click="gotowebclone">Web Clone</li>  
-            <li v-on:click="gotowork">Work</li>          
+            <li v-on:click="gotowork">Art Work</li>          
           </ul>
         </li>
         <li v-on:click="gotocontact">Contact</li>
@@ -36,7 +36,7 @@
         <ul class="subMenu">        
           <li class="pt down" v-on:click="gotodevelop">Front-end Develop</li>
           <li class="pt down" v-on:click="gotowebclone">Web Clone</li>
-          <li class="pt down" v-on:click="gotowork">Work</li>
+          <li class="pt down" v-on:click="gotowork">Art Work</li>
         </ul>
       </li>
       <li class="pt bold" v-on:click="gotocontact">Contact</li>
