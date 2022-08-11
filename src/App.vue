@@ -15,7 +15,8 @@
           <p>Project</p>        
           <ul class="mb_subMenu">
             <li v-on:click="gotodevelop">Front-end Develop</li>
-            <li v-on:click="gotowebclone">Web Clone</li>            
+            <li v-on:click="gotowebclone">Web Clone</li>  
+            <li v-on:click="gotowork">Work</li>          
           </ul>
         </li>
         <li v-on:click="gotocontact">Contact</li>
@@ -35,6 +36,7 @@
         <ul class="subMenu">        
           <li class="pt down" v-on:click="gotodevelop">Front-end Develop</li>
           <li class="pt down" v-on:click="gotowebclone">Web Clone</li>
+          <li class="pt down" v-on:click="gotowork">Work</li>
         </ul>
       </li>
       <li class="pt bold" v-on:click="gotocontact">Contact</li>
@@ -45,7 +47,8 @@
     <intro id="intro"></intro>
     <about id="about"></about>
     <develop id="develop"></develop>
-    <webclone id="webclone"></webclone>   
+    <webclone id="webclone"></webclone>
+    <work id="work"></work>   
     <contact id="contact"></contact> 
 </div>
 </template>
@@ -55,6 +58,7 @@ import intro from './components/intro.vue'
 import about from './components/aboutMe.vue'
 import develop from './components/frontEndDevelop.vue'
 import webclone from './components/webClone.vue'
+import work from './components/work_page.vue'
 import contact from './components/contact.vue'
 
 
@@ -91,6 +95,12 @@ export default {
         develop.scrollIntoView({behavior:'smooth'})
       }
     },
+     gotowork() {
+      const work = document.getElementById('work')
+      if(work) {
+        work.scrollIntoView({behavior:'smooth'})
+      }
+    },
     gotocontact() {
       const contact = document.getElementById('contact')
       if(contact) {
@@ -112,6 +122,7 @@ export default {
     about,
     develop,
     webclone,
+    work,
     contact,
   }
 }
