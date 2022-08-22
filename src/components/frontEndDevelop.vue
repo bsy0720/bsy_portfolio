@@ -204,7 +204,7 @@ export default {
           url2: "https://team-alaska.herokuapp.com/",
           url3: "https://bsy-portfolio.web.app/",
           gitLink1: "https://github.com/bsy0720/Project_seomun.git",
-          gitLink2: "https://team-alaska.herokuapp.com/",
+          gitLink2: "https://github.com/bsy0720/Project_alaska.git",
           gitLink3: "https://github.com/bsy0720/bsy_portfolio.git",
           is_show:false,
           is_show2:false
@@ -380,9 +380,9 @@ background-color: #E6E6FA;
 }
 
 .black_bg {
-  height: 80vh;
+  height: 100vh;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #f9f6f6;
