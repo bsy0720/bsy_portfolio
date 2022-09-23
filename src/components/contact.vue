@@ -13,7 +13,7 @@
           <p>감사합니다!</p>
       </div>
       <div class="contact_icon">
-          <ul>
+        <ul>
           <li>
             <a href="/img/bsy_resume.hwp" download>
               <img src="/img/resume.png">
