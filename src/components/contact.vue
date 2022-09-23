@@ -72,6 +72,7 @@ export default {
 
 .bg {
   width: 100%;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -105,7 +106,7 @@ export default {
 
 .contact_icon {
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
