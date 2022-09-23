@@ -34,6 +34,11 @@
                 <img src="/img/kakaotalk.png">
               </a>
           </li>
+          <li>
+            <a v-bind:href="velog">
+              <img src="/img/velog.png">
+            </a>          
+          </li>
         </ul>
       </div>
     </div>  
@@ -49,6 +54,7 @@ export default {
       git: "https://github.com/bsy0720/portfolio.git",
       mail: "mailto:df3978@naver.com",
       kakao: "https://open.kakao.com/o/sN97S7se",
+      velog: "https://velog.io/@bsy0720",
       source1: './public/resume.pdf',
     }
   },
