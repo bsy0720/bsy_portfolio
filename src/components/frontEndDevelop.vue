@@ -5,59 +5,52 @@
         <h1>Project</h1>
         <p>&lt;Front-end Develop&gt;</p>
       </div>
+      
       <div class="develop_box_wrap">
-        <div class="develop_box">
-          <div class="develop_box_title">
-            <h3>서문시장 야시장</h3>
-            <p>2022.05 &#40;1人 개인프로젝트&#41;</p>
+        <div class="develop_box develop_box2">
+           <div class="develop_box_title">
+            <h3>포트폴리오</h3>
+            <p>2022.07 ~ 2022.08 &#40;1人 프로젝트&#41;</p>
           </div>
           <div class="develop_box_content">
-            <div class="swiper_wrap">
+            <div  class="swiper_wrap">
               <swiper :pagination="true" :modules="modules" class="mySwiper">
-              <swiper-slide>
-                <img src="/img/seomun_main.gif">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="/img/seomun_intro.gif">
-              </swiper-slide>
-               <swiper-slide>
-                <img src="/img/seomun_notice.gif">
-              </swiper-slide>
-            </swiper>
+                <swiper-slide>
+                  <img src="/img/portfolio_web.gif">
+                </swiper-slide>
+                <swiper-slide>
+                  <img src="/img/portfolio_mb.gif">
+                </swiper-slide>
+              </swiper>
             </div>
             <div class="develop_content">
               <p>
-                <span class="bold">서문시장 야시장</span>을 리뉴얼 하는 프로젝트였습니다.
-                  Java Script를 이용하여 애니메이션을 구현하였으며
-                  Node.js를 이용하여 서버간 이동이 가능하고 카카오톡
-                  로그인 API를 사용하여 실제로 로그인이 가능합니다. 
-                  또한 My SQL을 사용해 실제로 게시판에 글을 게시될 수 있도록 하였습니다
+                <span class="bold">포트폴리오</span> 사이트는 Vue.js를 기반으로 css, Java Script, Jquery를 사용하였으며
+                원페이지로 제작, 각 페이지로 갈 수 있는 fix Menu도 제작하였습니다. 프로젝트 부분은 직접 구현하는 모습을 볼 수 있는 칸과 정보를 담은 칸을 만들었으며
+                개인 및 팀프로젝트 부분은 목업버튼을 누르면 목업을 볼 수 있는 팝업창을 만들었습니다. 
+                또한 contact 부분은 각 아이콘에 a 태그를 사용하여 페이지로 넘어갈 수 있게 제작하였습니다. 
               </p>
               <div class="develop_info">
                 <ul>
                   <li>
-                    <p>✔ 기술스택</p>                   
-                    <span v-for="stack in stack1" :key="stack">{{stack}}</span>
+                    <p>✔ 기술스택</p>                    
+                    <span v-for="stack in stack3" :key="stack">{{stack}}</span>
                   </li>
                   <li>
-                    <p>✔ URL</p>                   
-                    <span><a v-bind:href="url1" class="url">{{url1}}</a></span>
+                    <p>✔ URL</p>                    
+                    <span><a v-bind:href="url3" class="url">{{url3}}</a></span>
                   </li>
                   <li>
-                    <p>✔ GitHub</p>                   
-                    <span><a v-bind:href="gitLink1" class="git">{{gitLink1}}</a></span>
+                    <p>✔ GitHub</p>                    
+                    <span><a v-bind:href="gitLink3" class="git">{{gitLink3}}</a></span>
                   </li>
                 </ul>
-              </div>
-             <div class="develop_mockup_wrap">
-                <button @click="handle_toggle2" type="button">Mock Up</button>
-             </div>
-            </div>
+              </div>                     
+            </div>           
           </div>
         </div>
-       
-  
-        <div class="develop_box develop_box2">
+
+          <div class="develop_box develop_box2">
            <div class="develop_box_title">
             <h3>알래스카 한인관광</h3>
             <p>2022.05 ~ 2022.06 &#40;2人 팀프로젝트&#41;</p>
@@ -107,6 +100,57 @@
             </div>           
           </div>
         </div>
+
+        <div class="develop_box">
+          <div class="develop_box_title">
+            <h3>서문시장 야시장</h3>
+            <p>2022.05 &#40;1人 개인프로젝트&#41;</p>
+          </div>
+          <div class="develop_box_content">
+            <div class="swiper_wrap">
+              <swiper :pagination="true" :modules="modules" class="mySwiper">
+              <swiper-slide>
+                <img src="/img/seomun_main.gif">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="/img/seomun_intro.gif">
+              </swiper-slide>
+               <swiper-slide>
+                <img src="/img/seomun_notice.gif">
+              </swiper-slide>
+            </swiper>
+            </div>
+            <div class="develop_content">
+              <p>
+                <span class="bold">서문시장 야시장</span>을 리뉴얼 하는 프로젝트였습니다.
+                  Java Script를 이용하여 애니메이션을 구현하였으며
+                  Node.js를 이용하여 서버간 이동이 가능하고 카카오톡
+                  로그인 API를 사용하여 실제로 로그인이 가능합니다. 
+                  또한 My SQL을 사용해 실제로 게시판에 글을 게시될 수 있도록 하였습니다
+              </p>
+              <div class="develop_info">
+                <ul>
+                  <li>
+                    <p>✔ 기술스택</p>                   
+                    <span v-for="stack in stack1" :key="stack">{{stack}}</span>
+                  </li>
+                  <li>
+                    <p>✔ URL</p>                   
+                    <span><a v-bind:href="url1" class="url">{{url1}}</a></span>
+                  </li>
+                  <li>
+                    <p>✔ GitHub</p>                   
+                    <span><a v-bind:href="gitLink1" class="git">{{gitLink1}}</a></span>
+                  </li>
+                </ul>
+              </div>
+             <div class="develop_mockup_wrap">
+                <button @click="handle_toggle2" type="button">Mock Up</button>
+             </div>
+            </div>
+          </div>
+        </div>
+        
         <div v-show="is_show" class="black_bg scroll">
           <h3>알래스카 한인관광 Mock Up</h3>
           <div class="modal_img">
@@ -125,50 +169,9 @@
             <button @click="handle_toggle2" type="button">닫기</button>
           </div>                               
         </div>  
+      
       </div>
-       
-       <div class="develop_box develop_box2">
-           <div class="develop_box_title">
-            <h3>포트폴리오</h3>
-            <p>2022.07 ~ 2022.08 &#40;1人 프로젝트&#41;</p>
-          </div>
-          <div class="develop_box_content">
-            <div  class="swiper_wrap">
-              <swiper :pagination="true" :modules="modules" class="mySwiper">
-                <swiper-slide>
-                  <img src="/img/portfolio_web.gif">
-                </swiper-slide>
-                <swiper-slide>
-                  <img src="/img/portfolio_mb.gif">
-                </swiper-slide>
-              </swiper>
-            </div>
-            <div class="develop_content">
-              <p>
-                <span class="bold">포트폴리오</span> 사이트는 Vue.js를 기반으로 css, Java Script, Jquery를 사용하였으며
-                원페이지로 제작, 각 페이지로 갈 수 있는 fix Menu도 제작하였습니다. 프로젝트 부분은 직접 구현하는 모습을 볼 수 있는 칸과 정보를 담은 칸을 만들었으며
-                개인 및 팀프로젝트 부분은 목업버튼을 누르면 목업을 볼 수 있는 팝업창을 만들었습니다. 
-                또한 contact 부분은 각 아이콘에 a 태그를 사용하여 페이지로 넘어갈 수 있게 제작하였습니다. 
-              </p>
-              <div class="develop_info">
-                <ul>
-                  <li>
-                    <p>✔ 기술스택</p>                    
-                    <span v-for="stack in stack3" :key="stack">{{stack}}</span>
-                  </li>
-                  <li>
-                    <p>✔ URL</p>                    
-                    <span><a v-bind:href="url3" class="url">{{url3}}</a></span>
-                  </li>
-                  <li>
-                    <p>✔ GitHub</p>                    
-                    <span><a v-bind:href="gitLink3" class="git">{{gitLink3}}</a></span>
-                  </li>
-                </ul>
-              </div>                     
-            </div>           
-          </div>
-        </div>
+              
     </div>    
   </section>
 </template>

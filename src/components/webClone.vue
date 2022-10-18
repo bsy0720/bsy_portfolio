@@ -6,82 +6,7 @@
           <p>&lt;Web Clone&gt;</p>         
       </div>
       <div class="webclone_box_wrap">
-         <div class="webclone_box">
-          <div class="webclone_box_title">
-            <h3>싱그러운집</h3>
-            <p>2022.04</p>
-          </div>
-          <div class="webclone_box_content">
-            <div class="swiper_wrap">
-              <swiper :pagination="true" :modules="modules" class="mySwiper">
-              <swiper-slide>
-                <img src="/img/fresh_main.gif">
-              </swiper-slide>
-              <swiper-slide>
-                <img src="/img/fresh_sub.gif">
-              </swiper-slide>
-            </swiper>
-            </div>
-            <div class="webclone_content">
-              <p>식물에 관한 모든것을 알 수 있는 <sapn class="bold">싱그러운집</sapn>을 웹클론 하였습니다</p>
-              <div class="webclone_info">
-                <ul>
-                  <li>
-                    <p>✔ 기술스택</p>                                       
-                    <span v-for="stack in stack1" :key="stack">{{stack}}</span>
-                  </li>
-                  <li>
-                    <p>✔ URL</p>                   
-                    <p><a v-bind:href="url[4]" class="url"><span class="url_bold">메인</span>: {{url[4]}}</a></p>
-                    <p><a v-bind:href="url[5]" class="url"><span class="url_bold">소개</span>: {{url[5]}}</a></p>
-                  </li>
-                  <li>
-                    <p>✔ GitHub</p>                 
-                    <span><a v-bind:href="gitLink3" class="git">{{gitLink3}}</a></span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="webclone_box">
-          <div class="webclone_box_title">
-            <h3>대전문화재단</h3>
-            <p>2022.04</p>
-          </div>
-          <div class="webclone_box_content">
-            <div class="swiper_wrap">
-              <swiper :pagination="true" :modules="modules" class="mySwiper">
-              <swiper-slide>
-                <img src="/img/daejeon_main.gif">
-              </swiper-slide>
-              <swiper-slide>
-               <img src="/img/daejeon_sub.gif">
-              </swiper-slide>
-            </swiper>
-            </div>
-            <div class="webclone_content">
-              <p>대전광역시에 위치한 <sapn class="bold">대전문화재단</sapn>을 웹클론 하였습니다</p>
-              <div class="webclone_info">
-                <ul>
-                  <li>
-                    <p>✔ 기술스택</p>                   
-                    <span v-for="stack in stack1" :key="stack">{{stack}}</span>
-                  </li>
-                  <li>
-                    <p>✔ URL</p>                    
-                    <p><a v-bind:href="url[0]" class="url"><span class="url_bold">메인</span>: {{url[0]}}</a></p>
-                    <p><a v-bind:href="url[1]" class="url"><span class="url_bold">소개</span>: {{url[1]}}</a></p>
-                  </li>
-                  <li>
-                    <p>✔ GitHub</p>                   
-                    <span><a v-bind:href="gitLink1" class="git">{{gitLink1}}</a></span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div class="webclone_box">
            <div class="webclone_box_title">
             <h3>폴렉스존</h3>
@@ -122,6 +47,85 @@
             </div>
           </div>
         </div>
+
+        <div class="webclone_box">
+          <div class="webclone_box_title">
+            <h3>대전문화재단</h3>
+            <p>2022.04</p>
+          </div>
+          <div class="webclone_box_content">
+            <div class="swiper_wrap">
+              <swiper :pagination="true" :modules="modules" class="mySwiper">
+              <swiper-slide>
+                <img src="/img/daejeon_main.gif">
+              </swiper-slide>
+              <swiper-slide>
+               <img src="/img/daejeon_sub.gif">
+              </swiper-slide>
+            </swiper>
+            </div>
+            <div class="webclone_content">
+              <p>대전광역시에 위치한 <sapn class="bold">대전문화재단</sapn>을 웹클론 하였습니다</p>
+              <div class="webclone_info">
+                <ul>
+                  <li>
+                    <p>✔ 기술스택</p>                   
+                    <span v-for="stack in stack1" :key="stack">{{stack}}</span>
+                  </li>
+                  <li>
+                    <p>✔ URL</p>                    
+                    <p><a v-bind:href="url[0]" class="url"><span class="url_bold">메인</span>: {{url[0]}}</a></p>
+                    <p><a v-bind:href="url[1]" class="url"><span class="url_bold">소개</span>: {{url[1]}}</a></p>
+                  </li>
+                  <li>
+                    <p>✔ GitHub</p>                   
+                    <span><a v-bind:href="gitLink1" class="git">{{gitLink1}}</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+         <div class="webclone_box">
+          <div class="webclone_box_title">
+            <h3>싱그러운집</h3>
+            <p>2022.04</p>
+          </div>
+          <div class="webclone_box_content">
+            <div class="swiper_wrap">
+              <swiper :pagination="true" :modules="modules" class="mySwiper">
+              <swiper-slide>
+                <img src="/img/fresh_main.gif">
+              </swiper-slide>
+              <swiper-slide>
+                <img src="/img/fresh_sub.gif">
+              </swiper-slide>
+            </swiper>
+            </div>
+            <div class="webclone_content">
+              <p>식물에 관한 모든것을 알 수 있는 <sapn class="bold">싱그러운집</sapn>을 웹클론 하였습니다</p>
+              <div class="webclone_info">
+                <ul>
+                  <li>
+                    <p>✔ 기술스택</p>                                       
+                    <span v-for="stack in stack1" :key="stack">{{stack}}</span>
+                  </li>
+                  <li>
+                    <p>✔ URL</p>                   
+                    <p><a v-bind:href="url[4]" class="url"><span class="url_bold">메인</span>: {{url[4]}}</a></p>
+                    <p><a v-bind:href="url[5]" class="url"><span class="url_bold">소개</span>: {{url[5]}}</a></p>
+                  </li>
+                  <li>
+                    <p>✔ GitHub</p>                 
+                    <span><a v-bind:href="gitLink3" class="git">{{gitLink3}}</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+              
       </div>  
   </div>  
   </section>
